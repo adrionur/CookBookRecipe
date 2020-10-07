@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30523.141
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CookBookRecipe", "CookBookRecipe\CookBookRecipe.csproj", "{7EDB9123-8979-4B07-AEC3-C325B0144721}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CookBookRecipe.Web", "CookBookRecipe\CookBookRecipe.Web.csproj", "{7EDB9123-8979-4B07-AEC3-C325B0144721}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CookBookRecipe.DAL", "DAL\CookBookRecipe.DAL.csproj", "{2D117546-8E0D-4CCB-A2E5-92AD12EF10F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CookBookRecipe.Entities", "CookBookRecipe.Entities\CookBookRecipe.Entities.csproj", "{65568D29-8A61-4C30-B501-BF4BAD586786}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{7EDB9123-8979-4B07-AEC3-C325B0144721}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7EDB9123-8979-4B07-AEC3-C325B0144721}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7EDB9123-8979-4B07-AEC3-C325B0144721}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D117546-8E0D-4CCB-A2E5-92AD12EF10F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D117546-8E0D-4CCB-A2E5-92AD12EF10F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D117546-8E0D-4CCB-A2E5-92AD12EF10F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D117546-8E0D-4CCB-A2E5-92AD12EF10F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65568D29-8A61-4C30-B501-BF4BAD586786}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65568D29-8A61-4C30-B501-BF4BAD586786}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65568D29-8A61-4C30-B501-BF4BAD586786}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65568D29-8A61-4C30-B501-BF4BAD586786}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
